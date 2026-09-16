@@ -1,10 +1,10 @@
 {
 	"pack": {
-		"pack_format": 94,
-		"description": "RealisticExplosion [1.2.1] by Stoupy51",
+		"pack_format": 121,
+		"description": "RealisticExplosion [1.2.2] by Stoupy51",
 		"min_format": [
-			94,
-			1
+			121,
+			0
 		],
 		"max_format": [
 			9999,

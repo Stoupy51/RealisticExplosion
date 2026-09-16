@@ -2,6 +2,7 @@
 # Imports
 import os
 
+import stouputils as stp
 from beet import BlockTag, Context
 from beet.core.utils import JsonDict
 from stewbeet import *  # type: ignore
@@ -116,7 +117,7 @@ def generate_summons_files(ctx: Context, ns: str) -> None:
     for item_name_length, items_list in item_name_length_dict.items():
         content = ""
         for item in items_list:
-            content += f'execute if data storage {ns}:main {{id:"{item}"}} run summon falling_block ~ ~ ~ {{Tags:["realistic_explosion.new"],DropItem:0b,BlockState:{{Name:"{item}"}}}}\n'
+            content += f'execute if data storage {ns}:main {{id:"{item}"}} run summon falling_block ~ ~ ~ {{Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"{item}"}}\n'
 
         write_function(f"{ns}:{GENERATED_SUMMONS_FOLDER}/{item_name_length}", content)
 
