@@ -24,5 +24,6 @@ execute if data storage realistic_explosion:main {id:"minecraft:piston"} run sum
 execute if data storage realistic_explosion:main {id:"minecraft:podzol"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:podzol"}
 execute if data storage realistic_explosion:main {id:"minecraft:smoker"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:smoker"}
 execute if data storage realistic_explosion:main {id:"minecraft:sponge"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:sponge"}
+execute if data storage realistic_explosion:main {id:"minecraft:sulfur"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:sulfur"}
 execute if data storage realistic_explosion:main {id:"minecraft:target"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:target"}
 

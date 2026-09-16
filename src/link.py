@@ -4,6 +4,7 @@ import os
 
 import stouputils as stp
 from beet import BlockTag, Context
+from beet.contrib.vanilla import Vanilla
 from beet.core.utils import JsonDict
 from stewbeet import *  # type: ignore
 
@@ -13,25 +14,20 @@ GENERATED_SUMMONS_FOLDER: str = "generated_summons"
 FALLING_BLOCK_FOLDER: str = "falling_block"
 EXPLOSION_FOLDER: str = "explosion"
 
-# URLs to fetch the list of items and blocks from the Minecraft registry (based on 1.21)
-ITEM_TXT: str = "https://raw.githubusercontent.com/PixiGeko/Minecraft-generated-data/master/1.21/releases/1.21.11/custom-generated/registries/item.txt"
-BLOCK_TXT: str = "https://raw.githubusercontent.com/PixiGeko/Minecraft-generated-data/master/1.21/releases/1.21.11/custom-generated/registries/block.txt"
+def vanilla_registries(ctx: Context) -> tuple[list[str], list[str]]:
+    """ Block ids and item ids of the Minecraft version the pack targets, read from the vanilla files beet caches.
 
-@stp.simple_cache()
-def fetch_url(url: str) -> list[str]:
-    """Fetch a text file from a URL and return its content as a list of lines."""
-    import requests
-
-    with requests.get(url) as response:
-        return response.text.splitlines()
+    Blocks come from their blockstate definitions and items from their item model definitions, both of which
+    the client holds one file per registry entry.
+    """
+    assets = Vanilla(ctx).assets["minecraft"]
+    blocks: list[str] = [f"minecraft:{name}" for name in assets.blockstates]
+    items: list[str] = [f"minecraft:{name}" for name in assets.item_models]
+    return blocks, items
 
 def get_list_from_items_and_blocks(ctx: Context) -> list[str]:
     """ Return a list of items that are also blocks. """
-    # Fallback: use a comprehensive list based on Minecraft 1.21
-    # This is more reliable than trying to parse vanilla data structures
-    # We'll fetch from the registry files that beet might have cached
-    items_list = fetch_url(ITEM_TXT)
-    blocks_list = fetch_url(BLOCK_TXT)
+    blocks_list, items_list = vanilla_registries(ctx)
 
     # For each item, add it to the final list if it's in the block list
     final_list: list[str] = []
@@ -46,8 +42,8 @@ def get_list_from_items_and_blocks(ctx: Context) -> list[str]:
 def generate_explodable_blocks_tags(ctx: Context, ns: str) -> None:
     """Generate the list of blocks that can be destroyed by the explosion by steps."""
 
-    # Get vanilla blocks using beet's vanilla system or from URL
-    blocks = fetch_url(BLOCK_TXT)
+    # Get vanilla blocks of the targeted Minecraft version
+    blocks, _ = vanilla_registries(ctx)
 
     # Read the blast resistance file
     blast_resistance_dict: dict[str, int] = {}

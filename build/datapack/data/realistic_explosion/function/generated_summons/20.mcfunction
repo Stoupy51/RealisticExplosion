@@ -34,6 +34,7 @@ execute if data storage realistic_explosion:main {id:"minecraft:heavy_core"} run
 execute if data storage realistic_explosion:main {id:"minecraft:horn_coral"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:horn_coral"}
 execute if data storage realistic_explosion:main {id:"minecraft:iron_block"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:iron_block"}
 execute if data storage realistic_explosion:main {id:"minecraft:iron_chain"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:iron_chain"}
+execute if data storage realistic_explosion:main {id:"minecraft:item_frame"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:item_frame"}
 execute if data storage realistic_explosion:main {id:"minecraft:jungle_log"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:jungle_log"}
 execute if data storage realistic_explosion:main {id:"minecraft:large_fern"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:large_fern"}
 execute if data storage realistic_explosion:main {id:"minecraft:moss_block"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:moss_block"}
@@ -48,6 +49,7 @@ execute if data storage realistic_explosion:main {id:"minecraft:orange_bed"} run
 execute if data storage realistic_explosion:main {id:"minecraft:packed_ice"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:packed_ice"}
 execute if data storage realistic_explosion:main {id:"minecraft:packed_mud"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:packed_mud"}
 execute if data storage realistic_explosion:main {id:"minecraft:pink_tulip"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:pink_tulip"}
+execute if data storage realistic_explosion:main {id:"minecraft:poplar_log"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:poplar_log"}
 execute if data storage realistic_explosion:main {id:"minecraft:prismarine"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:prismarine"}
 execute if data storage realistic_explosion:main {id:"minecraft:purple_bed"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:purple_bed"}
 execute if data storage realistic_explosion:main {id:"minecraft:red_banner"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_banner"}

@@ -32,11 +32,13 @@ execute if data storage realistic_explosion:main {id:"minecraft:lodestone"} run 
 execute if data storage realistic_explosion:main {id:"minecraft:oak_fence"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:oak_fence"}
 execute if data storage realistic_explosion:main {id:"minecraft:oak_shelf"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:oak_shelf"}
 execute if data storage realistic_explosion:main {id:"minecraft:pink_wool"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:pink_wool"}
+execute if data storage realistic_explosion:main {id:"minecraft:red_shrub"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_shrub"}
 execute if data storage realistic_explosion:main {id:"minecraft:red_tulip"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_tulip"}
 execute if data storage realistic_explosion:main {id:"minecraft:rose_bush"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:rose_bush"}
 execute if data storage realistic_explosion:main {id:"minecraft:sandstone"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:sandstone"}
 execute if data storage realistic_explosion:main {id:"minecraft:soul_sand"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:soul_sand"}
 execute if data storage realistic_explosion:main {id:"minecraft:soul_soil"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:soul_soil"}
+execute if data storage realistic_explosion:main {id:"minecraft:straw_bed"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:straw_bed"}
 execute if data storage realistic_explosion:main {id:"minecraft:sunflower"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:sunflower"}
 execute if data storage realistic_explosion:main {id:"minecraft:tuff_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:tuff_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:tuff_wall"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:tuff_wall"}

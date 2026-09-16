@@ -8,6 +8,7 @@
 
 execute if data storage realistic_explosion:main {id:"minecraft:bamboo_mosaic_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:bamboo_mosaic_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:birch_hanging_sign"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:birch_hanging_sign"}
+execute if data storage realistic_explosion:main {id:"minecraft:blue_concrete_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:blue_concrete_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:blue_stained_glass"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:blue_stained_glass"}
 execute if data storage realistic_explosion:main {id:"minecraft:bubble_coral_block"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:bubble_coral_block"}
 execute if data storage realistic_explosion:main {id:"minecraft:chiseled_bookshelf"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:chiseled_bookshelf"}
@@ -16,15 +17,18 @@ execute if data storage realistic_explosion:main {id:"minecraft:chiseled_sandsto
 execute if data storage realistic_explosion:main {id:"minecraft:cobblestone_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:cobblestone_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:crimson_fence_gate"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:crimson_fence_gate"}
 execute if data storage realistic_explosion:main {id:"minecraft:cut_sandstone_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:cut_sandstone_slab"}
+execute if data storage realistic_explosion:main {id:"minecraft:cyan_concrete_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:cyan_concrete_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:cyan_stained_glass"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:cyan_stained_glass"}
 execute if data storage realistic_explosion:main {id:"minecraft:deepslate_coal_ore"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:deepslate_coal_ore"}
 execute if data storage realistic_explosion:main {id:"minecraft:deepslate_gold_ore"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:deepslate_gold_ore"}
 execute if data storage realistic_explosion:main {id:"minecraft:deepslate_iron_ore"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:deepslate_iron_ore"}
 execute if data storage realistic_explosion:main {id:"minecraft:exposed_cut_copper"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:exposed_cut_copper"}
+execute if data storage realistic_explosion:main {id:"minecraft:gray_concrete_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:gray_concrete_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:gray_stained_glass"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:gray_stained_glass"}
 execute if data storage realistic_explosion:main {id:"minecraft:infested_deepslate"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:infested_deepslate"}
 execute if data storage realistic_explosion:main {id:"minecraft:large_amethyst_bud"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:large_amethyst_bud"}
 execute if data storage realistic_explosion:main {id:"minecraft:lily_of_the_valley"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:lily_of_the_valley"}
+execute if data storage realistic_explosion:main {id:"minecraft:lime_concrete_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:lime_concrete_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:lime_stained_glass"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:lime_stained_glass"}
 execute if data storage realistic_explosion:main {id:"minecraft:magenta_terracotta"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:magenta_terracotta"}
 execute if data storage realistic_explosion:main {id:"minecraft:mangrove_propagule"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:mangrove_propagule"}
@@ -32,12 +36,15 @@ execute if data storage realistic_explosion:main {id:"minecraft:mossy_stone_bric
 execute if data storage realistic_explosion:main {id:"minecraft:nether_brick_fence"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:nether_brick_fence"}
 execute if data storage realistic_explosion:main {id:"minecraft:oak_pressure_plate"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:oak_pressure_plate"}
 execute if data storage realistic_explosion:main {id:"minecraft:orange_shulker_box"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:orange_shulker_box"}
+execute if data storage realistic_explosion:main {id:"minecraft:orange_wool_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:orange_wool_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:petrified_oak_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:petrified_oak_slab"}
+execute if data storage realistic_explosion:main {id:"minecraft:pink_concrete_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:pink_concrete_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:pink_stained_glass"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:pink_stained_glass"}
 execute if data storage realistic_explosion:main {id:"minecraft:polished_deepslate"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_deepslate"}
 execute if data storage realistic_explosion:main {id:"minecraft:polished_tuff_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_tuff_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:polished_tuff_wall"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_tuff_wall"}
 execute if data storage realistic_explosion:main {id:"minecraft:purple_shulker_box"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:purple_shulker_box"}
+execute if data storage realistic_explosion:main {id:"minecraft:purple_wool_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:purple_wool_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:red_mushroom_block"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_mushroom_block"}
 execute if data storage realistic_explosion:main {id:"minecraft:red_sandstone_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_sandstone_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:red_sandstone_wall"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_sandstone_wall"}
@@ -51,4 +58,5 @@ execute if data storage realistic_explosion:main {id:"minecraft:waxed_copper_cha
 execute if data storage realistic_explosion:main {id:"minecraft:waxed_copper_chest"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:waxed_copper_chest"}
 execute if data storage realistic_explosion:main {id:"minecraft:waxed_copper_grate"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:waxed_copper_grate"}
 execute if data storage realistic_explosion:main {id:"minecraft:yellow_shulker_box"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:yellow_shulker_box"}
+execute if data storage realistic_explosion:main {id:"minecraft:yellow_wool_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:yellow_wool_stairs"}
 

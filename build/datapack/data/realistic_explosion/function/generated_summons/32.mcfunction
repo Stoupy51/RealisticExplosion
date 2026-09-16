@@ -22,17 +22,24 @@ execute if data storage realistic_explosion:main {id:"minecraft:end_stone_brick_
 execute if data storage realistic_explosion:main {id:"minecraft:exposed_copper_lantern"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:exposed_copper_lantern"}
 execute if data storage realistic_explosion:main {id:"minecraft:gray_glazed_terracotta"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:gray_glazed_terracotta"}
 execute if data storage realistic_explosion:main {id:"minecraft:light_blue_shulker_box"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:light_blue_shulker_box"}
+execute if data storage realistic_explosion:main {id:"minecraft:light_blue_wool_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:light_blue_wool_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:light_gray_shulker_box"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:light_gray_shulker_box"}
+execute if data storage realistic_explosion:main {id:"minecraft:light_gray_wool_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:light_gray_wool_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:lime_glazed_terracotta"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:lime_glazed_terracotta"}
 execute if data storage realistic_explosion:main {id:"minecraft:mossy_cobblestone_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:mossy_cobblestone_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:mossy_cobblestone_wall"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:mossy_cobblestone_wall"}
 execute if data storage realistic_explosion:main {id:"minecraft:mossy_stone_brick_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:mossy_stone_brick_slab"}
 execute if data storage realistic_explosion:main {id:"minecraft:mossy_stone_brick_wall"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:mossy_stone_brick_wall"}
 execute if data storage realistic_explosion:main {id:"minecraft:orange_concrete_powder"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:orange_concrete_powder"}
+execute if data storage realistic_explosion:main {id:"minecraft:orange_concrete_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:orange_concrete_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:oxidized_lightning_rod"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:oxidized_lightning_rod"}
 execute if data storage realistic_explosion:main {id:"minecraft:pink_glazed_terracotta"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:pink_glazed_terracotta"}
 execute if data storage realistic_explosion:main {id:"minecraft:polished_andesite_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_andesite_slab"}
+execute if data storage realistic_explosion:main {id:"minecraft:polished_cinnabar_slab"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_cinnabar_slab"}
+execute if data storage realistic_explosion:main {id:"minecraft:polished_cinnabar_wall"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_cinnabar_wall"}
+execute if data storage realistic_explosion:main {id:"minecraft:polished_sulfur_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:polished_sulfur_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:purple_concrete_powder"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:purple_concrete_powder"}
+execute if data storage realistic_explosion:main {id:"minecraft:purple_concrete_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:purple_concrete_stairs"}
 execute if data storage realistic_explosion:main {id:"minecraft:red_stained_glass_pane"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:red_stained_glass_pane"}
 execute if data storage realistic_explosion:main {id:"minecraft:stripped_dark_oak_wood"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:stripped_dark_oak_wood"}
 execute if data storage realistic_explosion:main {id:"minecraft:stripped_mangrove_wood"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:stripped_mangrove_wood"}
@@ -43,4 +50,5 @@ execute if data storage realistic_explosion:main {id:"minecraft:weathered_copper
 execute if data storage realistic_explosion:main {id:"minecraft:weathered_copper_chest"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:weathered_copper_chest"}
 execute if data storage realistic_explosion:main {id:"minecraft:weathered_copper_grate"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:weathered_copper_grate"}
 execute if data storage realistic_explosion:main {id:"minecraft:yellow_concrete_powder"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:yellow_concrete_powder"}
+execute if data storage realistic_explosion:main {id:"minecraft:yellow_concrete_stairs"} run summon falling_block ~ ~ ~ {Tags:["realistic_explosion.new"],DropItem:0b,BlockState:"minecraft:yellow_concrete_stairs"}
 
